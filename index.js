@@ -26,6 +26,7 @@ const findPassword = async () => {
     return console.log(poem1FileName, poem2FileName, poem3FileName);
   } catch (err) {
     console.log("ohh!! one of the files is not exist");
+    return;
   }
 };
 
